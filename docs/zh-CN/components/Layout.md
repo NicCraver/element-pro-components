@@ -129,11 +129,11 @@ meta:
 
 ### 事件
 
-| 事件名 | 说明                | 参数                                                                            |
-| ------ | ------------------- | ------------------------------------------------------------------------------- |
-| select | 菜单激活回调        | index: 选中菜单项的 index, indexPath: 选中菜单项的 index path, item: 选中菜单项 |
-| open   | sub-menu 展开的回调 | index: 打开的 sub-menu 的 index, indexPath: 打开的 sub-menu 的 index path       |
-| close  | sub-menu 收起的回调 | index: 收起的 sub-menu 的 index, indexPath: 收起的 sub-menu 的 index path       |
+| 事件名 | 说明         | 参数                                          |
+| ------ | ------------ | --------------------------------------------- |
+| select | 菜单激活回调 | path: 选中菜单项对应的路由路径                |
+| open   | sub-menu 展开的回调 | index: 展开的 sub-menu 的 index         |
+| close  | sub-menu 收起的回调 | index: 收起的 sub-menu 的 index         |
 
 ### 插槽
 
